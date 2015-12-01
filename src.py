@@ -16,8 +16,8 @@ while(True):
     try:
         usernameInput = driver.find_element_by_id('LoginName')
         passwordInput = driver.find_element_by_id('Password')
-        usernameInput.send_keys('12020405')
-        passwordInput.send_keys('12020405')
+        usernameInput.send_keys('')
+        passwordInput.send_keys('')
         driver.find_element_by_class_name("icon-signin").click()
     except:
         continue
